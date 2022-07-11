@@ -1,0 +1,15 @@
+# note: this should be used to update feat-env only
+name: feat-env
+channels:
+    - conda-forge
+dependencies:
+    - sphinx
+    - sphinx-material
+    - recommonmark
+    - nbsphinx
+    - matplotlib
+    - jupyter
+    - seaborn
+    - pip
+    - pip:
+        - sphinx-copybutton
